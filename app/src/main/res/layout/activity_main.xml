@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context="nyc.c4q.unit04midassessment.MainActivity">
 
+
+    <fragment
+        android:class="nyc.c4q.unit04midassessment.MainFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_fragment" />
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
