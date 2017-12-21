@@ -16,7 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainFragment"></activity>
+        <activity
+            android:name=".MyViewHolder"
+            android:label="@string/title_activity_my_view_holder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyAdapterView"
+            android:label="@string/title_activity_my_adapter_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

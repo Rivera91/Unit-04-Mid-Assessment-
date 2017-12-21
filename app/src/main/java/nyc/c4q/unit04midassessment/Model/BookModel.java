@@ -1,4 +1,4 @@
-package nyc.c4q.unit04midassessment;
+package nyc.c4q.unit04midassessment.Model;
 
 import java.util.List;
 
@@ -8,25 +8,22 @@ import java.util.List;
 
 public class BookModel {
 
-    public String getBook() {
-        return book;
-    }
-
     private String book;
+
     private List<String> title;
 
     public List<String> getTitle() {
         return title;
     }
 
+    private List<String> author;
+
     public List<String> getAuthor() {
         return author;
     }
 
-    public int getYear() {
-        return year;
-    }
 
-    private List<String> author;
-    private int year;
+    public String getBook() {
+        return book;
+    }
 }
